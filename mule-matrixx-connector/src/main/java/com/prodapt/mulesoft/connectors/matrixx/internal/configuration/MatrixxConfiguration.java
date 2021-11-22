@@ -11,7 +11,8 @@ import com.prodapt.mulesoft.connectors.matrixx.internal.operations.CreateUser;
 import com.prodapt.mulesoft.connectors.matrixx.internal.operations.DeleteDevice;
 import com.prodapt.mulesoft.connectors.matrixx.internal.operations.DeleteUser;
 
-@Operations({ CreateUser.class,CreateSubscription.class,AddUserToSubscription.class,CreateDevice.class,DeleteDevice.class,DeleteUser.class})
+@Operations({ CreateUser.class,CreateSubscription.class,AddUserToSubscription.class,CreateDevice.class,DeleteDevice.class,DeleteUser.class,RetrievalOfUser.class,
+		RetrievalOfUserSubscription.class,RetrievalOfUserEvents.class})
 
 @ConnectionProviders(MatrixxConnectionProvider.class)
 public class MatrixxConfiguration extends RestConfiguration {
